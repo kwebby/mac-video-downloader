@@ -1,0 +1,54 @@
+# Local builds and distribution artifacts. Publish installers as release assets.
+/.build/
+/build/
+/dist/
+/ffbuild/
+.swiftpm/
+*.dSYM/
+xcuserdata/
+*.xcuserstate
+
+# Developer environments, dependency caches, generated test media and logs.
+/.tools/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+coverage/
+*.log
+Tests/Fixtures/generated/
+Tests/DesignPreview/fixtures/
+*.partial
+.DS_Store
+
+# Regenerable third-party downloads/builds. Keep source pins, scripts and the
+# checked-in python-notices/deno-notices attribution and provenance collections.
+/Packaging/Runtime/build/
+/Packaging/Runtime/output/
+/Packaging/Runtime/cache/
+/Packaging/Runtime/wheels/
+/Packaging/Runtime/*.tar.gz
+/Packaging/Runtime/*.tar.xz
+/Packaging/Runtime/*.zip
+/Packaging/Runtime/*.tar.zst
+
+# Local credentials and signing material. The Chrome public-key.b64 is public
+# extension identity metadata and is intentionally included in source control.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.secrets/
+*.p12
+*.pfx
+*.key
+*.pem
+*.mobileprovision
+*.provisionprofile
+
+# Local design comparison report depends on ignored capture outputs.
+/design-qa.md
+/research_notes/
+
+Tests/DesignPreview/chrome-preview/fixtures/

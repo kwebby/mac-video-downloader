@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MVD Companion</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand"><img class="app-icon" src="icons/icon-128.png" alt=""><div><span class="wordmark">MVD</span><span class="tag">Mac Video Downloader</span></div><span class="browser-label">Chrome companion</span></div>
+    <div class="connection"><span id="connection-status" role="status">Connecting to MVD…</span><button id="reconnect" class="text-button" title="Check the desktop connection again">Check connection</button></div>
+  </header>
+  <main>
+    <section class="page-section" aria-labelledby="page-title">
+    <div class="eyebrow">Current page <span id="badge-preview" aria-label="Available media count">—</span></div>
+    <h1 id="page-title">Checking this page…</h1>
+    <p id="page-host" class="muted"></p>
+    <p id="availability" role="status" aria-live="polite">Looking for videos on this page.</p>
+    <button id="send-page" class="primary" disabled>Show video options</button>
+    <button id="review-page" class="text-button review-page" disabled>Review this page in MVD instead</button>
+    </section>
+    <section aria-labelledby="sources-title">
+      <div class="section-heading"><h2 id="sources-title">Available on this page</h2><span id="count" class="muted">0 sources</span><button id="refresh" class="text-button" aria-label="Refresh videos on this page" title="Look for videos again">Refresh</button></div>
+      <ol id="candidates"></ol>
+      <p id="empty" class="empty-state" hidden>Play a video, then refresh to find its sources. You can also review the page in MVD.</p>
+    </section>
+    <section class="link-section" aria-labelledby="link-title">
+      <h2 id="link-title">Have another link?</h2>
+      <form id="link-form">
+        <div class="url-field"><input id="link-url" type="url" placeholder="Paste a video or file URL…" aria-label="Video or file URL" autocomplete="off" spellcheck="false" required></div>
+        <button id="review-url" type="submit">Review link in MVD</button>
+      </form>
+      <p class="helper">Choose quality, audio, and a folder in the app.</p>
+    </section>
+    <details id="detection-options">
+      <summary>Website controls<span class="summary-chevron" aria-hidden="true">⌄</span></summary>
+      <div class="permission-body">
+      <p id="permission-status" class="muted">Opening this popup checks the current page. Optional site access enables automatic badges on later visits.</p>
+      <button id="enable-site" disabled>Enable automatic detection on this site</button>
+      <button id="toggle-site" disabled>Disable on this website</button>
+      <button id="enable-all">Enable player buttons on all websites</button>
+      <div id="cdn-controls" hidden>
+        <label for="cdn-origin">Media host on this page</label>
+        <select id="cdn-origin"></select>
+        <button id="enable-cdn">Allow selected media host</button>
+      </div>
+      <p class="small muted">After allowing access, play the video again so MVD can detect new media requests.</p>
+      </div>
+    </details>
+    <footer><span>Protected playback is unavailable.</span><a href="README.md" target="_blank" rel="noopener">Setup & help ↗</a></footer>
+  </main>
+  <div class="feedback"><p id="status" role="status" aria-live="polite"></p><button id="retry" hidden>Retry pending download</button></div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

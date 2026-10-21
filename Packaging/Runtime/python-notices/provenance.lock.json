@@ -1,0 +1,17 @@
+{
+  "release_url": "https://github.com/astral-sh/python-build-standalone/releases/tag/20261020",
+  "release_tag": "20261020",
+  "full_archive": {
+    "name": "cpython-3.14.8+20261020-aarch64-apple-darwin-pgo+lto-full.tar.zst",
+    "size": 63490612,
+    "digest": "sha256:014f60954057ef9714f86f65f40591c37ad40cf061a948741c4859826b19b488",
+    "browser_download_url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261020/cpython-3.14.8%2B20261020-aarch64-apple-darwin-pgo%2Blto-full.tar.zst"
+  },
+  "runtime_archive": {
+    "name": "cpython-3.14.8+20261020-aarch64-apple-darwin-install_only_stripped.tar.gz",
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261020/cpython-3.14.8%2B20261020-aarch64-apple-darwin-install_only_stripped.tar.gz",
+    "digest": "sha256:f0f1402b45a8a655fc78c8ee62462fddcb9dc8717a022e79700d07e44fd18d4a",
+    "tag": "20261020",
+    "size": 26694605
+  }
+}

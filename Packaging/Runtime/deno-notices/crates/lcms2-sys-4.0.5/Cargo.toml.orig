@@ -1,0 +1,47 @@
+[package]
+name = "lcms2-sys"
+version = "4.0.5"
+authors = ["Kornel Lesiński <kornel@geekhood.net>"]
+build = "src/build.rs"
+categories = ["multimedia::images", "external-ffi-bindings" ]
+description = "Bindings for liblcms2 (Little CMS) with support for Linux, macOS, and Windows.\n\nSee lcms2 crate for a safe Rust wrapper."
+documentation = "https://kornelski.github.io/rust-lcms2-sys/"
+homepage = "https://lib.rs/crates/lcms2-sys"
+include = ["src/*", "Cargo.toml", "COPYING", "README.md", "vendor/LICENSE", "vendor/src/*.c", "vendor/src/*.h", "vendor/include/*.h"]
+keywords = ["icc", "color", "profile", "lcms", "sys"]
+license = "MIT"
+links = "lcms2"
+readme = "README.md"
+repository = "https://github.com/kornelski/rust-lcms2-sys.git"
+edition = "2021"
+
+[lib]
+doctest = false
+
+[build-dependencies]
+cc = { optional = true, version = "1.0.73" }
+pkg-config = { optional = true, version = "0.3.25" }
+dunce = "1.0.2"
+
+[dependencies]
+libc = "0.2.129"
+
+[features]
+default = ["dynamic", "static-fallback", "parallel"]
+# Try pkg-config to link dynamically. You can also set `LCMS2_LIB_DIR` and `LCMS2_INCLUDE_DIR` instead.
+dynamic = ["dep:pkg-config"]
+# Makes static builds faster
+parallel = ["cc?/parallel"]
+# Prefer static build
+static = ["dep:cc"]
+# Allow static build if dynamic linking fails. You can set `LCMS2_STATIC` env var to prefer static.
+static-fallback = ["dep:cc"]
+
+# If building lcms2 from source, configure it to be strict about parsing CGATS.13.
+lcms2-strict-cgats = []
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
+
+[badges]
+maintenance = { status = "actively-developed" }

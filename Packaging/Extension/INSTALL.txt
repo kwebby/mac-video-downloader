@@ -1,0 +1,101 @@
+MVD Companion @VERSION@ — personal unpacked Chrome build
+
+This package is for trusted personal/development use. It is not a Chrome Web
+Store release. A ZIP or self-hosted CRX cannot provide ordinary one-click Chrome
+installation on a consumer Mac; Chrome requires you to load this folder in
+Developer mode. No enterprise policy or Chrome security setting is changed.
+
+INSTALL
+
+1. Install MVD.app in /Applications, open it once, and keep it there.
+
+2. In MVD, click Connect Chrome in the sidebar (or Settings > Chrome), then
+   Prepare Chrome Companion. Alternatively, open "Install Chrome
+   Companion.command" from this package. Both save the extension runtime here:
+
+   ~/Library/Application Support/MVD/Chrome Companion
+
+   Setup also registers the desktop bridge for this package's exact extension ID.
+   It does not install/enable an extension or grant access to websites. If your
+   app lives elsewhere, run this command in Terminal with the correct paths:
+
+   zsh "/path/to/Chrome Companion/Install Chrome Companion.command" "/absolute/path/MVD.app"
+
+3. In Google Chrome, enter chrome://extensions in the address bar. Turn on
+   Developer mode. Click Load unpacked. Press Shift-Command-G in the folder
+   picker, paste this location, press Return, then choose the folder:
+
+   ~/Library/Application Support/MVD/Chrome Companion
+
+4. Confirm that MVD Companion has this ID:
+
+   @EXTENSION_ID@
+
+   Pin it from Chrome's Extensions menu. Open a supported public video page,
+   open the MVD popup, and check the desktop connection. Click the page/player
+   action to choose actual source formats and a saved desktop folder. Approve
+   per-site or all-site access only when you want those optional features.
+
+   MVD shows Chrome Connected with a green tick after a recent successful
+   handshake through the matching desktop bridge. Copied files alone do not
+   count as installed and configured. Keep Chrome open to verify the connection.
+
+The ZIP is a portable runtime-only copy. Do not select the ZIP in Load unpacked,
+or load a folder directly from a mounted DMG or a temporary extraction location:
+Chrome needs the unpacked files to remain present after the disk image is ejected.
+
+UPDATES AND EXISTING DEVELOPER INSTALLS
+
+Run this package's installer again to replace the permanent runtime, then click
+Reload on MVD Companion at chrome://extensions and refresh existing video pages.
+The packaged manifest's public key keeps this package's ID stable across copies.
+Unpacked installs do not receive Chrome Web Store automatic updates.
+
+An older repository development install may have a different path-derived ID.
+The original source manifest and developer extension ID have not been changed.
+The installer pairs the desktop bridge with this packaged ID only; finish loading
+this package, then disable/remove the old duplicate companion. The desktop host
+supports one paired extension ID at a time. To return to the repository version,
+run its Scripts/install-chrome-host.sh with that version's exact ID again.
+
+If MVD.app is moved or replaced at another path, run this installer again. The
+native host needs its exact absolute app location. This package targets regular
+Google Chrome with its default user-data location; Chromium, other browsers and
+custom user-data directories need separate supported registration.
+
+TROUBLESHOOTING
+
+* App/host missing: install the complete MVD.app first, then run the installer.
+* Desktop unavailable: open MVD, re-run registration, reload the extension and
+  refresh the webpage. Do not assume an unconfirmed request was downloaded.
+* ID differs: choose the permanent folder above and inspect its manifest. Do not
+  edit the public key or substitute another extension's ID.
+* No player/source: try starting playback and retrying. Some players, sessions,
+  private/protected media and sites cannot be independently downloaded.
+* A managed Chrome browser may disable Developer mode. This package does not
+  change administrator policies; use the standalone desktop app instead.
+
+REMOVAL
+
+Remove MVD Companion from chrome://extensions. If you no longer use its bridge,
+remove only these two product-owned locations in Finder:
+
+~/Library/Application Support/MVD/Chrome Companion
+~/Library/Application Support/Google/Chrome/NativeMessagingHosts/io.harbor.downloads.json
+
+Do not remove your MVD download folders or other browser data.
+
+DISTRIBUTION AND IDENTITY
+
+The manifest key is public identity data, not a private signing key and not proof
+of Chrome Web Store approval. No private key is shipped. Public store distribution
+needs a reviewed, genuinely permitted feature scope and a reconciled store ID.
+Current Chrome review guidance lists YouTube-download facilitation as a rejection
+reason; this private build is not a store-submission workaround.
+
+Official Chrome references (checked 21 October 2026):
+https://developer.chrome.com/docs/extensions/how-to/distribute
+https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world
+https://developer.chrome.com/docs/extensions/reference/manifest/key
+https://developer.chrome.com/docs/extensions/develop/concepts/native-messaging
+https://developer.chrome.com/docs/webstore/troubleshooting

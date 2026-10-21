@@ -1,0 +1,18 @@
+# First-party source uses LF; binary design/icon assets remain binary.
+*.swift text eol=lf
+*.sh text eol=lf
+*.command text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.icns binary
+
+# Preserve byte-for-byte third-party notices and provenance records, including
+# their recorded hashes. These rules override normalization rules above.
+Packaging/Runtime/deno-notices/** -text
+Packaging/Runtime/python-notices/** -text

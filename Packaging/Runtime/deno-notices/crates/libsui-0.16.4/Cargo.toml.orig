@@ -1,0 +1,32 @@
+[package]
+name = "libsui"
+version = "0.16.4"
+authors = ["the Deno authors"]
+edition = "2021"
+license = "MIT"
+description = "A injection tool for executable formats (ELF, PE, Mach-O) that allows you to embed files into existing binary and extract them at runtime"
+repository = "https://github.com/denoland/sui"
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["bmp", "ico", "png"] }
+libc = "0.2"
+# The PE resource writer was reduced from the unmaintained editpe crate into
+# pe_edit.rs (see pe_edit.rs and LICENSE-editpe). Its resource writer miscomputed
+# SizeOfImage; we own it now.
+indexmap = "2.1"
+thiserror = "1.0"
+zerocopy = { version = "0.7", features = ["derive"] }
+sha2 = "0.10"
+object = { version = "=0.36.3", default-features = false, features = ["build", "read_core", "elf", "std"] }
+
+# object = { version = "0.36.1", features = ["build"] }
+
+[lib]
+path = "lib.rs"
+
+[[bin]]
+name = "sui"
+path = "cli.rs"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.58", features = ["Win32_System", "Win32_System_LibraryLoader", "Win32_Foundation"] }

@@ -1,0 +1,169 @@
+[package]
+# The library target remains `v8` so the vendored rusty_v8 integration tests
+# can run unmodified. Downstream crates should depend on this package under an
+# explicit alias when both rusty_v8 and v8x are available.
+name = "v8x"
+version = "149.4.0-rc.4"
+edition = "2024"
+authors = ["Divy Srivastava <me@littledivy.com>"]
+description = "Engine agnostic JavaScript"
+build = "build.rs"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/littledivy/v8x"
+homepage = "https://github.com/littledivy/v8x"
+readme = "README.md"
+keywords = ["v8", "javascript", "quickjs", "javascriptcore", "engine"]
+categories = ["api-bindings", "development-tools"]
+
+# crates.io ships a self-contained tarball: only the sources the QuickJS build
+# actually compiles, with our patches already baked into the vendored trees (see
+# the `.git`-absent guard in build.rs `setup_vendor`). This excludes the 8.9 GB
+# vendor/webkit tree (JSC backend, macOS-only, built from a git checkout) and the
+# 232 MB vendor/rusty_v8/third_party V8 sources we never build.
+include = [
+  "/build.rs",
+  "/Cargo.toml",
+  "/README.md",
+  "/LICENSE-MIT",
+  "/LICENSE-APACHE",
+  "/src/**/*",
+  "/gen/**/*",
+  # rusty_v8 Rust API surface: src/lib.rs `#[path]`-includes these modules, and
+  # binding.rs `include!`s the pre-generated bindings from gen/. The tests dir is
+  # shipped only so the [[test]] target paths below resolve; it is not compiled
+  # for downstream builds.
+  "/vendor/rusty_v8/src/**/*",
+  "/vendor/rusty_v8/tests/**/*",
+  "/vendor/rusty_v8/LICENSE",
+  # QuickJS-ng: the flat C sources + headers cc compiles (quickjs.c and friends).
+  "/vendor/quickjs-ng/*.c",
+  "/vendor/quickjs-ng/*.h",
+  "/vendor/quickjs-ng/LICENSE",
+  # Temporal polyfill JS `include_bytes!`'d by src/quickjs/temporal.rs.
+  "/vendor/temporal-polyfill/**/*",
+  # WAMR (WebAssembly): CMake builds the interpreter-only static lib from core/
+  # + build-scripts/; v82jsc/ carries our CMake driver.
+  "/vendor/wamr/core/**/*",
+  "/vendor/wamr/build-scripts/**/*",
+  "/vendor/wamr/v82jsc/**/*",
+  "/vendor/wamr/LICENSE",
+]
+
+# docs.rs can't build the default JSC/WebKit backend (macOS-only, needs a
+# vendored WebKit tree that is not shipped in the crate). Document the portable
+# QuickJS backend instead.
+[package.metadata.docs.rs]
+no-default-features = true
+features = ["quickjs"]
+
+[lib]
+name = "v8"
+path = "src/lib.rs"
+
+[features]
+# Exactly ONE engine backend must be active (they each define the v8__* C ABI;
+# two would collide at link time). The default is the VENDORED JSC: it backs
+# every module with real JSC records (zero gaps, no string rewriter) — the
+# shippable engine, like deno ships v8 statically.
+default = ["engine_jsc", "vendor_jsc"]
+engine_jsc = []
+engine_quickjs = []
+# Short aliases (README-facing).
+jsc = ["engine_jsc", "vendor_jsc"]
+# System JavaScriptCore.framework (tiny binary, no vendored WebKit). Apple's
+# shipped module API is too limited for full native ESM (fetch-only loader, no
+# custom resolve, no synthetic modules) — so this build uses the string-rewriter
+# module shim and targets BUNDLED apps (deno compile / desktop), where the user
+# graph is flattened and the rewriter's unbundled-ESM gaps never bite.
+system_jsc = ["engine_jsc"]
+quickjs = [
+  "engine_quickjs",
+  "link_quickjs",
+  "dep:icu_collator",
+  "dep:icu_locale",
+]
+# Compile + statically link the vendored QuickJS-ng sources (engine_quickjs).
+link_quickjs = []
+# Build JavaScriptCore from the vendored WebKit (JSCOnly port) and link that
+# instead of the system framework. Same C API, so jsc_sys.rs is unchanged.
+vendor_jsc = []
+
+# v8-crate feature flags Deno toggles; inert here.
+use_custom_libcxx = []
+simdutf = []
+v8_enable_pointer_compression = []
+v8_enable_sandbox = ["v8_enable_pointer_compression"]
+v8_enable_v8_checks = []
+
+[dependencies]
+bitflags = "2.5"
+icu_collator = { version = "2.2.1", optional = true }
+icu_locale = { version = "2.2.0", optional = true }
+paste = "1.0"
+temporal_capi = { version = "0.2.3", features = ["zoneinfo64"] }
+temporal_rs = { version = "0.2.3", default-features = false }
+timezone_provider = { version = "0.2.3", features = ["zoneinfo64"] }
+
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.70"
+
+# Dev-deps needed to compile the vendored rusty_v8 integration tests
+# (registered as [[test]] targets below). Versions track vendor/rusty_v8.
+[dev-dependencies]
+align-data = "0.1.0"
+bytes = "1"
+
+# -----------------------------------------------------------------------------
+# Test-suite hill-climb: the vendored rusty_v8 integration tests run UNMODIFIED
+# against our v8 shim. Each is a [[test]] target pointing straight at the
+# vendored file (path = vendor/rusty_v8/tests/*.rs). The harness
+# (tests/harness/run.mjs) runs these via `cargo test --test rv8_*` per backend
+# and ratchets the pass set against status/baselines/<backend>/rusty_v8.txt.
+#
+# Excluded on purpose: test_ui (trybuild, needs deno crate fixtures),
+# test_simdutf (feature-gated). They are not part of the tracked suite.
+# -----------------------------------------------------------------------------
+[[test]]
+name = "rv8_test_api"
+path = "vendor/rusty_v8/tests/test_api.rs"
+
+[[test]]
+name = "rv8_test_api_flags"
+path = "vendor/rusty_v8/tests/test_api_flags.rs"
+
+[[test]]
+name = "rv8_test_api_entropy_source"
+path = "vendor/rusty_v8/tests/test_api_entropy_source.rs"
+
+[[test]]
+name = "rv8_slots"
+path = "vendor/rusty_v8/tests/slots.rs"
+
+[[test]]
+name = "rv8_test_simple_external"
+path = "vendor/rusty_v8/tests/test_simple_external.rs"
+
+[[test]]
+name = "rv8_test_external_deserialize"
+path = "vendor/rusty_v8/tests/test_external_deserialize.rs"
+
+[[test]]
+name = "rv8_test_custom_platform"
+path = "vendor/rusty_v8/tests/test_custom_platform.rs"
+
+[[test]]
+name = "rv8_test_single_threaded_default_platform"
+path = "vendor/rusty_v8/tests/test_single_threaded_default_platform.rs"
+
+[[test]]
+name = "rv8_test_platform_atomics_pump_message_loop"
+path = "vendor/rusty_v8/tests/test_platform_atomics_pump_message_loop.rs"
+
+[[test]]
+name = "rv8_test_concurrent_isolate_creation_and_disposal"
+path = "vendor/rusty_v8/tests/test_concurrent_isolate_creation_and_disposal.rs"
+
+[[test]]
+name = "rv8_test_cppgc"
+path = "vendor/rusty_v8/tests/test_cppgc.rs"

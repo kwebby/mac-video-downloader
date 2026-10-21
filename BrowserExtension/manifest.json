@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "MVD Companion",
+  "version": "0.4.4",
+  "description": "Private MVD companion: add video download buttons and choose real formats, audio options and folders through the local desktop app.",
+  "icons": { "16": "icons/icon-16.png", "32": "icons/icon-32.png", "128": "icons/icon-128.png" },
+  "minimum_chrome_version": "114",
+  "permissions": ["activeTab", "scripting", "contextMenus", "nativeMessaging", "storage", "webRequest", "webNavigation"],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "MVD — Mac Video Downloader", "default_popup": "popup.html", "default_icon": { "16": "icons/icon-16.png", "32": "icons/icon-32.png", "128": "icons/icon-128.png" } },
+  "incognito": "not_allowed",
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'; img-src 'self' http: https:" }
+}

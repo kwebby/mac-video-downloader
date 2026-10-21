@@ -1,0 +1,35 @@
+[package]
+name = "esbuild_client"
+version = "0.7.2"
+edition = "2024"
+license = "MIT"
+description = "A Rust implementation of a client for communicating with esbuild's service API over stdio"
+repository = "https://github.com/denoland/esbuild_client"
+
+[dependencies]
+anyhow = "1.0.98"
+async-trait = "0.1.88"
+deno_unsync = "0.4.2"
+indexmap = { version = "2.9.0" }
+log = "0.4.27"
+parking_lot = "0.12.3"
+paste = "1.0.15"
+serde = { version = "1.0.219", features = ["derive"], optional = true }
+tokio = { version = "1", features = ["process", "sync", "io-util", "macros"] }
+
+[dev-dependencies]
+pretty_assertions = "1.4.1"
+directories = "6.0.0"
+flate2 = "1.1.1"
+tar = "0.4.44"
+ureq = "3.0.11"
+sys_traits = { version = "0.1.14", features = ["libc", "real", "winapi"] }
+tokio = { version = "1", features = ["time"] }
+pretty_env_logger = "0.5.0"
+esbuild_client = { path = ".", features = ["serde"] }
+serde_json = "1.0.140"
+pathdiff = "0.2.3"
+
+[features]
+default = []
+serde = ["dep:serde"]

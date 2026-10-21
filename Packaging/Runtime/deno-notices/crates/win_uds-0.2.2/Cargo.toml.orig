@@ -1,0 +1,24 @@
+[package]
+name = "win_uds"
+version = "0.2.2"
+edition = "2024"
+license = "Unlicense"
+description = "Windows Unix Domain Socket"
+repository = "https://github.com/kouhe3/win_uds"
+keywords = ["windows", "unix", "socket", "uds"]
+categories = ["network-programming", "os::windows-apis", "api-bindings"]
+
+[package.metadata.docs.rs]
+all-features = true
+default-target = "x86_64-pc-windows-msvc"
+[features]
+async = ["dep:async-io", "dep:futures-io"]
+
+[dependencies]
+socket2 = "0.6.3"
+async-io = { version = "2", optional = true }
+futures-io = { version = "0.3.31", optional = true }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"

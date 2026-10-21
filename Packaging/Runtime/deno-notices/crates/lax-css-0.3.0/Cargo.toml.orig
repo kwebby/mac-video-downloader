@@ -1,0 +1,26 @@
+[package]
+name = "lax-css"
+version = "0.3.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/bartlomieju/lax"
+description = "Lax CSS, SCSS, and Less formatter that never reinterprets your code. Usable as a library or a dprint plugin."
+
+exclude = ["tests/", ".github/", "examples/"]
+
+[lib]
+crate-type = ["lib", "cdylib"]
+
+[features]
+wasm = ["serde_json", "dprint-core/wasm"]
+
+[dependencies]
+anyhow.workspace = true
+dprint-core.workspace = true
+lax-core.workspace = true
+serde.workspace = true
+serde_json = { workspace = true, optional = true }
+
+[dev-dependencies]
+dprint-development.workspace = true
+serde_json.workspace = true

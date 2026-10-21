@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MVD chooser at 320px — preview</title>
+  <style>
+    body { margin:24px; background:#e5e8eb; font:13px -apple-system,sans-serif; color:#46515c; }
+    iframe { display:block; width:320px; height:760px; border:1px solid #adb4bb; border-radius:12px; margin-top:12px; }
+  </style>
+</head>
+<body>
+  <p>320 px viewport · real responsive player chooser</p>
+  <div id="preview-frame"></div>
+  <script>
+    // Set the final URL before attaching the frame. An initial src followed by
+    // an immediate src assignment causes two competing document navigations.
+    function mountNarrowPreview() {
+      const query = new URLSearchParams(location.search);
+      const frame = document.createElement("iframe");
+      frame.id = "narrow";
+      frame.title = "MVD narrow player chooser";
+      frame.src = "player.html?theme=" + (query.get("theme") === "light" ? "light" : "dark");
+      document.getElementById("preview-frame").append(frame);
+    }
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mountNarrowPreview, { once:true });
+    else mountNarrowPreview();
+  </script>
+</body>
+</html>

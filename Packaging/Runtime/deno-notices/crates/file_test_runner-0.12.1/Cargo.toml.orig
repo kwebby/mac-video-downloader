@@ -1,0 +1,17 @@
+[package]
+name = "file_test_runner"
+version = "0.12.1"
+edition = "2024"
+description = "File-based test runner for running tests found in files."
+authors = ["the Deno authors"]
+license = "MIT"
+repository = "https://github.com/denoland/file_test_runner"
+
+[dependencies]
+anyhow = "1.0.82"
+crossbeam-channel = "0.5.12"
+deno_terminal = "0.2.0"
+parking_lot = "0.12.1"
+rayon = "1.11.0"
+regex = "1.11.1"
+thiserror = "2"

@@ -1,0 +1,30 @@
+[package]
+name = "import_map"
+version = "0.25.0"
+edition = "2021"
+description = "An implementation of WICG Import Maps specification"
+homepage = "https://deno.land/"
+repository = "https://github.com/denoland/import_map"
+authors = ["the Deno authors"]
+license = "MIT"
+readme = "README.md"
+
+[features]
+default = ["logging"]
+logging = ["log"]
+ext = []
+
+[dependencies]
+indexmap = { version = "2.1.0", features = ["serde"] }
+percent-encoding = "2.2.0"
+serde = { version = "1.0.129", features = ["derive"] }
+serde_json = { version = "1.0.111", features = ["preserve_order"] }
+url = { version = "2.3.1", features = ["serde"] }
+log = { version = "0.4.14", optional = true }
+thiserror = "2"
+deno_error = { version = "0.7.0", features = ["serde", "serde_json", "url"] }
+boxed_error = "0.2.3"
+
+[dev-dependencies]
+pretty_assertions = "1.4.0"
+walkdir = "2.3.2"

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MVD player chooser — design preview</title>
+  <script src="preview-theme.js"></script>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:#1c2025; background:#e9ecef }
+    :root[data-preview-theme="dark"] { color-scheme:dark; color:#edf0f2; background:#121316 }
+    :root[data-preview-theme="light"] { color-scheme:light; color:#1c2025; background:#e9ecef }
+    body { margin:0; padding:28px; }
+    .fixture-label { max-width:500px; margin:0 0 10px; font-size:12px; line-height:1.5; opacity:.65 }
+    h1 { margin:0 0 18px; font-size:24px; letter-spacing:-.5px }
+    .player { position:relative; width:min(720px,100%); aspect-ratio:16/9; overflow:hidden; background:#18221c; border-radius:12px }
+    .player img { width:100%;height:100%;object-fit:cover;opacity:.9 }
+    .player span { position:absolute; left:20px; bottom:20px; color:white; font-size:13px }
+    .preview-actions { display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;max-width:600px }
+    .preview-actions a,.preview-actions button { color:inherit; font:inherit; font-size:12px;border:1px solid #87918f66;background:transparent;border-radius:7px;padding:8px 10px;text-decoration:none;cursor:pointer }
+    #preview-log { max-width:650px; white-space:pre-wrap; font-size:11px; overflow-wrap:anywhere }
+    @media(max-width:500px) { body {padding:12px} h1 {font-size:18px} }
+  </style>
+</head>
+<body>
+  <p class="fixture-label">DESIGN PREVIEW · Mock desktop data. No permissions are changed and no downloads start.</p>
+  <h1>Big Buck Bunny — Open Movie</h1>
+  <div id="fixture-player" class="player"><img src="https://i.ytimg.com/vi/aqz-KE-bpKQ/hqdefault.jpg" alt="Big Buck Bunny open-movie poster"><span>Mock video player</span></div>
+  <div class="preview-actions"><button id="reopen">Reopen MVD chooser</button><a href="player.html?theme=light">Light</a><a href="player.html?theme=dark">Dark</a><a href="player-narrow.html?theme=dark">Narrow width</a></div>
+  <pre id="preview-log" aria-live="polite"></pre>
+  <script src="overlay-ui.js"></script>
+  <script src="mock-player.js"></script>
+</body>
+</html>

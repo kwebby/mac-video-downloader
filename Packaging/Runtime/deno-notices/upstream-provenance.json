@@ -1,0 +1,889 @@
+[
+  {
+    "component": "whatisinternet__inflector-a4a95eac7504",
+    "source": "https://raw.githubusercontent.com/whatisinternet/inflector/a4a95eac75043f4bffb127c7c8ec886b5b106053/LICENSE.md",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "Inflector@0.11.4"
+    ],
+    "file": "upstream/whatisinternet__inflector-a4a95eac7504/LICENSE.md",
+    "sha256": "03d1bd5bfbee8d44651e7f57faf9e5b4eda4233f0d4eda36a716f2f0533d230b",
+    "bytes": 1270
+  },
+  {
+    "component": "dropbox__rust-alloc-no-stdlib-6032b6a9b20e",
+    "source": "https://raw.githubusercontent.com/dropbox/rust-alloc-no-stdlib/6032b6a9b20e03737135c55a0270ccffcc1438ef/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "alloc-stdlib@0.2.2"
+    ],
+    "file": "upstream/dropbox__rust-alloc-no-stdlib-6032b6a9b20e/LICENSE",
+    "sha256": "c0c56f26d9c051cac4d200c34c84e7ae9aaa853e01a982a1df08b09931e518ae",
+    "bytes": 1483
+  },
+  {
+    "component": "zrzka__anes-rs-378ac7461eca",
+    "source": "https://raw.githubusercontent.com/zrzka/anes-rs/378ac7461ecac29fde9e10df7b08359d1315a9ad/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "anes@0.1.6"
+    ],
+    "file": "upstream/zrzka__anes-rs-378ac7461eca/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+    "bytes": 1023
+  },
+  {
+    "component": "zrzka__anes-rs-378ac7461eca",
+    "source": "https://raw.githubusercontent.com/zrzka/anes-rs/378ac7461ecac29fde9e10df7b08359d1315a9ad/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "anes@0.1.6"
+    ],
+    "file": "upstream/zrzka__anes-rs-378ac7461eca/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "rusticata__asn1-rs-28257314e48d",
+    "source": "https://raw.githubusercontent.com/rusticata/asn1-rs/28257314e48d1ad4e62b8159c939518e17caf826/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "asn1-rs-derive@0.4.0"
+    ],
+    "file": "upstream/rusticata__asn1-rs-28257314e48d/LICENSE-MIT",
+    "sha256": "a5c61b93b6ee1d104af9920cf020ff3c7efe818e31fe562c72261847a728f513",
+    "bytes": 1060
+  },
+  {
+    "component": "rusticata__asn1-rs-28257314e48d",
+    "source": "https://raw.githubusercontent.com/rusticata/asn1-rs/28257314e48d1ad4e62b8159c939518e17caf826/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "asn1-rs-derive@0.4.0"
+    ],
+    "file": "upstream/rusticata__asn1-rs-28257314e48d/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "rusticata__asn1-rs-78620ca0954d",
+    "source": "https://raw.githubusercontent.com/rusticata/asn1-rs/78620ca0954d44ddc57d0280d0072dfbd8566de4/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "asn1-rs-impl@0.1.0"
+    ],
+    "file": "upstream/rusticata__asn1-rs-78620ca0954d/LICENSE-MIT",
+    "sha256": "a5c61b93b6ee1d104af9920cf020ff3c7efe818e31fe562c72261847a728f513",
+    "bytes": 1060
+  },
+  {
+    "component": "rusticata__asn1-rs-78620ca0954d",
+    "source": "https://raw.githubusercontent.com/rusticata/asn1-rs/78620ca0954d44ddc57d0280d0072dfbd8566de4/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "asn1-rs-impl@0.1.0"
+    ],
+    "file": "upstream/rusticata__asn1-rs-78620ca0954d/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "wcampbell0x2a__backhand-4ac463be1071",
+    "source": "https://raw.githubusercontent.com/wcampbell0x2a/backhand/4ac463be1071219b46fc0184ce452704ea705ba0/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "backhand@0.25.1"
+    ],
+    "file": "upstream/wcampbell0x2a__backhand-4ac463be1071/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+    "bytes": 1023
+  },
+  {
+    "component": "wcampbell0x2a__backhand-4ac463be1071",
+    "source": "https://raw.githubusercontent.com/wcampbell0x2a/backhand/4ac463be1071219b46fc0184ce452704ea705ba0/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "backhand@0.25.1"
+    ],
+    "file": "upstream/wcampbell0x2a__backhand-4ac463be1071/LICENSE-APACHE",
+    "sha256": "fd26644b0118c8ae84a8770bdbbe18f7db14387b5cc19d1de670ad2d98a7ad42",
+    "bytes": 9724
+  },
+  {
+    "component": "Nugine__simd-d74c030d9dc4",
+    "source": "https://raw.githubusercontent.com/Nugine/simd/d74c030d9dc4f3cae02146d1f497ff62726ef09a/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "base64-simd@0.8.0",
+      "vsimd@0.8.0"
+    ],
+    "file": "upstream/Nugine__simd-d74c030d9dc4/LICENSE",
+    "sha256": "71674605ec4c087fe9eb534e3e4f9e26eb2e4aabcd76a29fd156c6a844d44b3d",
+    "bytes": 1062
+  },
+  {
+    "component": "madsmtm__objc2-b4167b582b2f",
+    "source": "https://raw.githubusercontent.com/madsmtm/objc2/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "block2@0.6.2"
+    ],
+    "file": "upstream/madsmtm__objc2-b4167b582b2f/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+    "bytes": 1339
+  },
+  {
+    "component": "dudykr__ddbase-9155da62e3b8",
+    "source": "https://raw.githubusercontent.com/dudykr/ddbase/9155da62e3b85a2d1c495167876754b98295bee6/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "bytes-str@0.2.7"
+    ],
+    "file": "upstream/dudykr__ddbase-9155da62e3b8/LICENSE",
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "bytes": 11357
+  },
+  {
+    "component": "dsherret__capacity_builder-61370ade72f9",
+    "source": "https://raw.githubusercontent.com/dsherret/capacity_builder/61370ade72f9ed5e3f40fb261f92057c3486ed83/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "capacity_builder_macros@0.3.0"
+    ],
+    "file": "upstream/dsherret__capacity_builder-61370ade72f9/LICENSE",
+    "sha256": "429efaf45c4004a7e0b589b1938755dad03ad649a813bd7305457d3f8ee8035f",
+    "bytes": 1070
+  },
+  {
+    "component": "DoumanAsh__clipboard-win-0af605873edf",
+    "source": "https://raw.githubusercontent.com/DoumanAsh/clipboard-win/0af605873edf7f8064f54e73536f27dee5a56416/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "clipboard-win@5.3.0"
+    ],
+    "file": "upstream/DoumanAsh__clipboard-win-0af605873edf/LICENSE",
+    "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+    "bytes": 1338
+  },
+  {
+    "component": "bytecodealliance__wasmtime-398694a59e24",
+    "source": "https://raw.githubusercontent.com/bytecodealliance/wasmtime/398694a59e24d37acde915086a9be308ec51f626/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "cranelift-assembler-x64@0.117.2",
+      "cranelift-assembler-x64-meta@0.117.2",
+      "cranelift-bitset@0.117.2",
+      "cranelift-isle@0.117.2"
+    ],
+    "file": "upstream/bytecodealliance__wasmtime-398694a59e24/LICENSE",
+    "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+    "bytes": 12243
+  },
+  {
+    "component": "ebkalderon__tower-lsp-812d56f0dcd9",
+    "source": "https://raw.githubusercontent.com/ebkalderon/tower-lsp/812d56f0dcd9df6ff80e85a5e83e0cc0dcf6cc49/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "deno-tower-lsp-macros@0.12.0"
+    ],
+    "file": "upstream/ebkalderon__tower-lsp-812d56f0dcd9/LICENSE-MIT",
+    "sha256": "b1eb2598599e2a78fdd20f4a6a1d95ce79928a1f9854c16d8305157397dcf265",
+    "bytes": 1057
+  },
+  {
+    "component": "ebkalderon__tower-lsp-812d56f0dcd9",
+    "source": "https://raw.githubusercontent.com/ebkalderon/tower-lsp/812d56f0dcd9df6ff80e85a5e83e0cc0dcf6cc49/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "deno-tower-lsp-macros@0.12.0"
+    ],
+    "file": "upstream/ebkalderon__tower-lsp-812d56f0dcd9/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "denoland__deno_error-e806d735069c",
+    "source": "https://raw.githubusercontent.com/denoland/deno_error/e806d735069caacf511b9a781ef2990a3651256f/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "deno_error_macro@0.7.1"
+    ],
+    "file": "upstream/denoland__deno_error-e806d735069c/LICENSE",
+    "sha256": "e70487678a799f089f7f78db7302e779d5dc7320ccd02cc13f494a4fb8b88300",
+    "bytes": 1078
+  },
+  {
+    "component": "denoland__denokv-9fe65cc138ff",
+    "source": "https://raw.githubusercontent.com/denoland/denokv/9fe65cc138ff56ca5bfe7a1bf8c53e832246f9d5/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "denokv_proto@0.14.0",
+      "denokv_remote@0.14.0",
+      "denokv_sqlite@0.14.0"
+    ],
+    "file": "upstream/denoland__denokv-9fe65cc138ff/LICENSE",
+    "sha256": "66b30351011fffa6e21474ddf51ddc1bba4d1dce79ff3fbb7fed8f09db8b321c",
+    "bytes": 1073
+  },
+  {
+    "component": "madsmtm__objc2-8852b424193c",
+    "source": "https://raw.githubusercontent.com/madsmtm/objc2/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "dispatch2@0.3.1",
+      "objc2@0.6.4"
+    ],
+    "file": "upstream/madsmtm__objc2-8852b424193c/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+    "bytes": 1339
+  },
+  {
+    "component": "OpenByteDev__dlopen2-122b5b7d9f15",
+    "source": "https://raw.githubusercontent.com/OpenByteDev/dlopen2/122b5b7d9f15718de9525b5968ea8888ddc3a89d/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "dlopen2_derive@0.4.0"
+    ],
+    "file": "upstream/OpenByteDev__dlopen2-122b5b7d9f15/LICENSE",
+    "sha256": "39fa265207450e77c62e90c5594a06c085b655d8374c7ced4bf7894b6bd95dd2",
+    "bytes": 1184
+  },
+  {
+    "component": "dprint__dprint-swc-ext-c4c2cb80beb0",
+    "source": "https://raw.githubusercontent.com/dprint/dprint-swc-ext/c4c2cb80beb0e37f466f8e0b9f89d508bea719c2/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "dprint-swc-ext@0.26.0"
+    ],
+    "file": "upstream/dprint__dprint-swc-ext-c4c2cb80beb0/LICENSE",
+    "sha256": "ca818b8b82971190f76fa6b1b0dacc98ebefeeee723bef00edd747704541898f",
+    "bytes": 1101
+  },
+  {
+    "component": "DoumanAsh__error-code-d3d734587b06",
+    "source": "https://raw.githubusercontent.com/DoumanAsh/error-code/d3d734587b06a1259fe8d2d7cafcd436e801975a/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "error-code@3.2.0"
+    ],
+    "file": "upstream/DoumanAsh__error-code-d3d734587b06/LICENSE",
+    "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+    "bytes": 1338
+  },
+  {
+    "component": "brendanzab__gl-rs-ea503e8d5fb6",
+    "source": "https://raw.githubusercontent.com/brendanzab/gl-rs/ea503e8d5fb6d73c6030e6191ce738cd3bf3433e/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "gl_generator@0.14.0"
+    ],
+    "file": "upstream/brendanzab__gl-rs-ea503e8d5fb6/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "component": "hyperium__http-body-2474edda2035",
+    "source": "https://raw.githubusercontent.com/hyperium/http-body/2474edda2035ea4c6bb22f79417d7964479b2a10/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "http-body@1.0.0"
+    ],
+    "file": "upstream/hyperium__http-body-2474edda2035/LICENSE",
+    "sha256": "0345e2b98685e3807fd802a2478085dcae35023e3da59b5a00f712504314d83a",
+    "bytes": 1062
+  },
+  {
+    "component": "denoland__import_map-4696fcc03310",
+    "source": "https://raw.githubusercontent.com/denoland/import_map/4696fcc03310ea0e7d3adf46810310fd9203403d/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "import_map@0.25.0"
+    ],
+    "file": "upstream/denoland__import_map-4696fcc03310/LICENSE",
+    "sha256": "2e48634165bc1daf3377738872c6c7058a19b437fe44fb732f4f88c34736d502",
+    "bytes": 1078
+  },
+  {
+    "component": "brendanzab__gl-rs-f150967b1c44",
+    "source": "https://raw.githubusercontent.com/brendanzab/gl-rs/f150967b1c44ae888e6676f93f639ebc82771bdc/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "khronos_api@3.1.0"
+    ],
+    "file": "upstream/brendanzab__gl-rs-f150967b1c44/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "component": "littledivy__laufey-ff63ca23e39e",
+    "source": "https://raw.githubusercontent.com/littledivy/laufey/ff63ca23e39e6ff0028ff203e3983cbb3cfac9c2/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "laufey@0.6.1"
+    ],
+    "file": "upstream/littledivy__laufey-ff63ca23e39e/LICENSE",
+    "sha256": "c6dad7108fb1372235505f275099812db467b74dbe2c02ea142929a1609fac1b",
+    "bytes": 10840
+  },
+  {
+    "component": "bartlomieju__lax-5d6edeaa6394",
+    "source": "https://raw.githubusercontent.com/bartlomieju/lax/5d6edeaa63943b5c7bc08f1d1425dfa068f45e40/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "lax-core@0.3.0"
+    ],
+    "file": "upstream/bartlomieju__lax-5d6edeaa6394/LICENSE",
+    "sha256": "e88db7fd46d8cbccb3e62e33ea823e2a44d20496c07071b1522423ccb2783259",
+    "bytes": 1072
+  },
+  {
+    "component": "libffi-rs__libffi-rs-7b1471ad430d",
+    "source": "https://raw.githubusercontent.com/libffi-rs/libffi-rs/7b1471ad430dd899046280f79066fc2d9b0fac90/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "libffi@5.1.0"
+    ],
+    "file": "upstream/libffi-rs__libffi-rs-7b1471ad430d/LICENSE-MIT",
+    "sha256": "b766d21b534e9303428c16644ef624e264668525fdcd4c2490865ed023dba842",
+    "bytes": 1056
+  },
+  {
+    "component": "libffi-rs__libffi-rs-7b1471ad430d",
+    "source": "https://raw.githubusercontent.com/libffi-rs/libffi-rs/7b1471ad430dd899046280f79066fc2d9b0fac90/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "libffi@5.1.0"
+    ],
+    "file": "upstream/libffi-rs__libffi-rs-7b1471ad430d/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "rust-mobile__ndk-49bbbba16c58",
+    "source": "https://raw.githubusercontent.com/rust-mobile/ndk/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "ndk-sys@0.6.0+11769913"
+    ],
+    "file": "upstream/rust-mobile__ndk-49bbbba16c58/LICENSE-MIT",
+    "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1",
+    "bytes": 1036
+  },
+  {
+    "component": "rust-mobile__ndk-49bbbba16c58",
+    "source": "https://raw.githubusercontent.com/rust-mobile/ndk/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "ndk-sys@0.6.0+11769913"
+    ],
+    "file": "upstream/rust-mobile__ndk-49bbbba16c58/LICENSE-APACHE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "component": "madsmtm__objc2-7b1abfd750a2",
+    "source": "https://raw.githubusercontent.com/madsmtm/objc2/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "objc2-core-foundation@0.3.2",
+      "objc2-foundation@0.3.2",
+      "objc2-metal@0.3.2",
+      "objc2-quartz-core@0.3.2"
+    ],
+    "file": "upstream/madsmtm__objc2-7b1abfd750a2/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+    "bytes": 1339
+  },
+  {
+    "component": "madsmtm__objc2-8d214f547736",
+    "source": "https://raw.githubusercontent.com/madsmtm/objc2/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "objc2-encode@4.1.0"
+    ],
+    "file": "upstream/madsmtm__objc2-8d214f547736/LICENSE.md",
+    "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+    "bytes": 1339
+  },
+  {
+    "component": "open-telemetry__opentelemetry-rust-ec289cb3c6f8",
+    "source": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-rust/ec289cb3c6f8260951699c51df968560943c1451/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "opentelemetry@0.32.0",
+      "opentelemetry-http@0.32.0",
+      "opentelemetry-otlp@0.32.0"
+    ],
+    "file": "upstream/open-telemetry__opentelemetry-rust-ec289cb3c6f8/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "component": "open-telemetry__opentelemetry-rust-74cb6f3a4129",
+    "source": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-rust/74cb6f3a4129bf11fa3191f28d38c518c4ec4ae6/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "opentelemetry-semantic-conventions@0.32.1"
+    ],
+    "file": "upstream/open-telemetry__opentelemetry-rust-74cb6f3a4129/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "component": "open-telemetry__opentelemetry-rust-284a37d93b38",
+    "source": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-rust/284a37d93b3856e1975c2807ba3af1421ebd9b52/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "opentelemetry_sdk@0.32.1"
+    ],
+    "file": "upstream/open-telemetry__opentelemetry-rust-284a37d93b38/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "component": "dudykr__ddbase-d46ef439d30d",
+    "source": "https://raw.githubusercontent.com/dudykr/ddbase/d46ef439d30d2b64eb87d4e197929548b51b21be/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "par-core@2.0.0"
+    ],
+    "file": "upstream/dudykr__ddbase-d46ef439d30d/LICENSE",
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "bytes": 11357
+  },
+  {
+    "component": "rust-phf__rust-phf-c9c35fd8ba3f",
+    "source": "https://raw.githubusercontent.com/rust-phf/rust-phf/c9c35fd8ba3f1bc228388b0cef6e3814a02a72c0/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "phf_macros@0.11.2"
+    ],
+    "file": "upstream/rust-phf__rust-phf-c9c35fd8ba3f/LICENSE",
+    "sha256": "0ab4d106b6faac07fb6a051815fd1b4d862d730895e2d7d7358c2f13565e7a38",
+    "bytes": 1099
+  },
+  {
+    "component": "g-plane__pretty_yaml-5dfb6c22ba91",
+    "source": "https://raw.githubusercontent.com/g-plane/pretty_yaml/5dfb6c22ba91a738b681d614202e264259e877f0/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "pretty_yaml@0.5.0"
+    ],
+    "file": "upstream/g-plane__pretty_yaml-5dfb6c22ba91/LICENSE",
+    "sha256": "2efe0331e360cdaa2701ae0b42fa1ce6002ee52675d648a0c49029b5f27eb734",
+    "bytes": 1073
+  },
+  {
+    "component": "aclysma__profiling-2f000e192aa8",
+    "source": "https://raw.githubusercontent.com/aclysma/profiling/2f000e192aa804e043021fd851ce1f077f73f76a/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "profiling@1.0.15"
+    ],
+    "file": "upstream/aclysma__profiling-2f000e192aa8/LICENSE-MIT",
+    "sha256": "c8167fdeeed46d3f244d3f85c5bf998ce889343691c32be2c61a8bc4b5c08333",
+    "bytes": 1093
+  },
+  {
+    "component": "aclysma__profiling-2f000e192aa8",
+    "source": "https://raw.githubusercontent.com/aclysma/profiling/2f000e192aa804e043021fd851ce1f077f73f76a/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "profiling@1.0.15"
+    ],
+    "file": "upstream/aclysma__profiling-2f000e192aa8/LICENSE-APACHE",
+    "sha256": "10d30a673cd5e9349bdc02aeb48f14b3386d27d0da32df8f0a555d4aa16aa551",
+    "bytes": 10818
+  },
+  {
+    "component": "udoprog__relative-path-802227a5ffdb",
+    "source": "https://raw.githubusercontent.com/udoprog/relative-path/802227a5ffdbb1a2e87735602c91aa8d81eafe5d/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "relative-path@1.9.2"
+    ],
+    "file": "upstream/udoprog__relative-path-802227a5ffdb/LICENSE-MIT",
+    "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+    "bytes": 1071
+  },
+  {
+    "component": "udoprog__relative-path-802227a5ffdb",
+    "source": "https://raw.githubusercontent.com/udoprog/relative-path/802227a5ffdbb1a2e87735602c91aa8d81eafe5d/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "relative-path@1.9.2"
+    ],
+    "file": "upstream/udoprog__relative-path-802227a5ffdb/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "kkawakam__rustyline-227d82c27c5c",
+    "source": "https://raw.githubusercontent.com/kkawakam/rustyline/227d82c27c5c5fa1862fa3b9e3a619bf9bdeef9b/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "rustyline-derive@0.11.1"
+    ],
+    "file": "upstream/kkawakam__rustyline-227d82c27c5c/LICENSE",
+    "sha256": "c660c3a1ca6c7c0d736f249dbc7ca5bdf1cbc7bf4d57bc867d3b47ec1ba8374e",
+    "bytes": 1102
+  },
+  {
+    "component": "gfx-rs__rspirv-8afc3d0ac8e1",
+    "source": "https://raw.githubusercontent.com/gfx-rs/rspirv/8afc3d0ac8e158128cd1410bb2e4b4c26ab11bb4/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "spirv@0.4.0+sdk-1.4.341.0"
+    ],
+    "file": "upstream/gfx-rs__rspirv-8afc3d0ac8e1/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "component": "hyperium__tonic-6cb6056b5a74",
+    "source": "https://raw.githubusercontent.com/hyperium/tonic/6cb6056b5a748bc5a29bd48f4602dbc4e552bb7d/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "tonic-prost@0.14.6"
+    ],
+    "file": "upstream/hyperium__tonic-6cb6056b5a74/LICENSE",
+    "sha256": "e24a56698aa6feaf3a02272b3624f9dc255d982970c5ed97ac4525a95056a5b3",
+    "bytes": 1056
+  },
+  {
+    "component": "jwilm__vte-1712405055f5",
+    "source": "https://raw.githubusercontent.com/jwilm/vte/1712405055f5d97f6dc7b6156885c940982ec20d/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "vte_generate_state_changes@0.1.1"
+    ],
+    "file": "upstream/jwilm__vte-1712405055f5/LICENSE-MIT",
+    "sha256": "e4c9b06fa850cb9b540a5e400e9f6394cf15efcf4098144de477d1d3dae10150",
+    "bytes": 1052
+  },
+  {
+    "component": "jwilm__vte-1712405055f5",
+    "source": "https://raw.githubusercontent.com/jwilm/vte/1712405055f5d97f6dc7b6156885c940982ec20d/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "vte_generate_state_changes@0.1.1"
+    ],
+    "file": "upstream/jwilm__vte-1712405055f5/LICENSE-APACHE",
+    "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+    "bytes": 9723
+  },
+  {
+    "component": "bytecodealliance__wasi-rs-06ce201370fc",
+    "source": "https://raw.githubusercontent.com/bytecodealliance/wasi-rs/06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "wasip2@1.0.2+wasi-0.2.9",
+      "wasip3@0.4.0+wasi-0.3.0-rc-2026-01-06"
+    ],
+    "file": "upstream/bytecodealliance__wasi-rs-06ce201370fc/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+    "bytes": 1023
+  },
+  {
+    "component": "bytecodealliance__wasi-rs-06ce201370fc",
+    "source": "https://raw.githubusercontent.com/bytecodealliance/wasi-rs/06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "wasip2@1.0.2+wasi-0.2.9",
+      "wasip3@0.4.0+wasi-0.3.0-rc-2026-01-06"
+    ],
+    "file": "upstream/bytecodealliance__wasi-rs-06ce201370fc/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "bytecodealliance__wasm-tools-d4e317f22c3b",
+    "source": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "wasm-encoder@0.244.0",
+      "wasm-metadata@0.244.0",
+      "wasmparser@0.244.0",
+      "wit-component@0.244.0",
+      "wit-parser@0.244.0"
+    ],
+    "file": "upstream/bytecodealliance__wasm-tools-d4e317f22c3b/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+    "bytes": 1023
+  },
+  {
+    "component": "bytecodealliance__wasm-tools-d4e317f22c3b",
+    "source": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "wasm-encoder@0.244.0",
+      "wasm-metadata@0.244.0",
+      "wasmparser@0.244.0",
+      "wit-component@0.244.0",
+      "wit-parser@0.244.0"
+    ],
+    "file": "upstream/bytecodealliance__wasm-tools-d4e317f22c3b/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "kixelated__web-transport-b5be3f7274ff",
+    "source": "https://raw.githubusercontent.com/kixelated/web-transport/b5be3f7274ff9885e5361c229d05f515ed09af4e/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "web-transport-proto@0.2.7"
+    ],
+    "file": "upstream/kixelated__web-transport-b5be3f7274ff/LICENSE-MIT",
+    "sha256": "a1073dd45800c01420a85b3cf3ed705d53162b3cc05b461d9336960c812716e3",
+    "bytes": 1068
+  },
+  {
+    "component": "kixelated__web-transport-b5be3f7274ff",
+    "source": "https://raw.githubusercontent.com/kixelated/web-transport/b5be3f7274ff9885e5361c229d05f515ed09af4e/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "web-transport-proto@0.2.7"
+    ],
+    "file": "upstream/kixelated__web-transport-b5be3f7274ff/LICENSE-APACHE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "component": "bytecodealliance__wit-bindgen-f2393e6e98fa",
+    "source": "https://raw.githubusercontent.com/bytecodealliance/wit-bindgen/f2393e6e98fa5f9236cac580db8a3fc9de6a4b70/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "wit-bindgen-rt@0.39.0"
+    ],
+    "file": "upstream/bytecodealliance__wit-bindgen-f2393e6e98fa/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+    "bytes": 1023
+  },
+  {
+    "component": "bytecodealliance__wit-bindgen-f2393e6e98fa",
+    "source": "https://raw.githubusercontent.com/bytecodealliance/wit-bindgen/f2393e6e98fa5f9236cac580db8a3fc9de6a4b70/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "wit-bindgen-rt@0.39.0"
+    ],
+    "file": "upstream/bytecodealliance__wit-bindgen-f2393e6e98fa/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "g-plane__pretty_yaml-3decc5c7ab26",
+    "source": "https://raw.githubusercontent.com/g-plane/pretty_yaml/3decc5c7ab2632c36f58c359fd9c4174140a6fec/LICENSE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "yaml_parser@0.2.1"
+    ],
+    "file": "upstream/g-plane__pretty_yaml-3decc5c7ab26/LICENSE",
+    "sha256": "2efe0331e360cdaa2701ae0b42fa1ce6002ee52675d648a0c49029b5f27eb734",
+    "bytes": 1073
+  },
+  {
+    "component": "qnighy__yasna.rs-b7e65f9a4c31",
+    "source": "https://raw.githubusercontent.com/qnighy/yasna.rs/b7e65f9a4c317494cce2d18ea02b3d6eaaea7985/LICENSE-MIT",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "yasna@0.5.2"
+    ],
+    "file": "upstream/qnighy__yasna.rs-b7e65f9a4c31/LICENSE-MIT",
+    "sha256": "2a7df90e60fd5512b8bca35d3ce90e068f21c52d962855053fd1d9e2e7ca0f16",
+    "bytes": 1055
+  },
+  {
+    "component": "qnighy__yasna.rs-b7e65f9a4c31",
+    "source": "https://raw.githubusercontent.com/qnighy/yasna.rs/b7e65f9a4c317494cce2d18ea02b3d6eaaea7985/LICENSE-APACHE",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "yasna@0.5.2"
+    ],
+    "file": "upstream/qnighy__yasna.rs-b7e65f9a4c31/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "bytes": 10847
+  },
+  {
+    "component": "etemesi254__zune-image-f8fbb123d5ed",
+    "source": "https://raw.githubusercontent.com/etemesi254/zune-image/f8fbb123d5ed04441e8324a555bfcda0cb1bd28f/LICENSE.md",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "zune-core@0.4.12"
+    ],
+    "file": "upstream/etemesi254__zune-image-f8fbb123d5ed/LICENSE.md",
+    "sha256": "c6dff146a9f31848ac296faa5a08a4253caf2c384c86f906dc99e7fc0a39cc8c",
+    "bytes": 357
+  },
+  {
+    "component": "etemesi254__zune-image-d45a0a038053",
+    "source": "https://raw.githubusercontent.com/etemesi254/zune-image/d45a0a0380530e164ac9a58d62ea330c95d74daf/LICENSE.md",
+    "kind": "upstream-crate-notice",
+    "usedBy": [
+      "zune-jpeg@0.4.13"
+    ],
+    "file": "upstream/etemesi254__zune-image-d45a0a038053/LICENSE.md",
+    "sha256": "c6dff146a9f31848ac296faa5a08a4253caf2c384c86f906dc99e7fc0a39cc8c",
+    "bytes": 357
+  },
+  {
+    "component": "v8-native__third_party__abseil-cpp-d16e32215c3a",
+    "source": "https://chromium.googlesource.com/chromium/src/third_party/abseil-cpp/+/d16e32215c3ab90ba57c2e904a5344d85c7353e4/LICENSE?format=TEXT",
+    "kind": "v8-native-notice",
+    "base64": true,
+    "usedBy": [
+      "v8@150.4.0"
+    ],
+    "file": "upstream/v8-native__third_party__abseil-cpp-d16e32215c3a/LICENSE",
+    "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747",
+    "bytes": 11361
+  },
+  {
+    "component": "v8-native__third_party__abseil-cpp-d16e32215c3a",
+    "source": "https://chromium.googlesource.com/chromium/src/third_party/abseil-cpp/+/d16e32215c3ab90ba57c2e904a5344d85c7353e4/AUTHORS?format=TEXT",
+    "kind": "v8-native-notice",
+    "base64": true,
+    "usedBy": [
+      "v8@150.4.0"
+    ],
+    "file": "upstream/v8-native__third_party__abseil-cpp-d16e32215c3a/AUTHORS",
+    "sha256": "1fd39030c119b4c97014f59e0ad0ed65f23475bbdf55a52740f31eb82b34b4ee",
+    "bytes": 295
+  },
+  {
+    "component": "v8-native__third_party__fp16__src-3d2de1816307",
+    "source": "https://raw.githubusercontent.com/Maratyszcza/FP16/3d2de1816307bac63c16a297e8c4dc501b4076df/LICENSE",
+    "kind": "v8-native-notice",
+    "base64": false,
+    "usedBy": [
+      "v8@150.4.0"
+    ],
+    "file": "upstream/v8-native__third_party__fp16__src-3d2de1816307/LICENSE",
+    "sha256": "17e4f539024be2749ee729d1e2f01d24cef12ece8c9bf18e91a4349be29c80bf",
+    "bytes": 1157
+  },
+  {
+    "component": "v8-native__third_party__icu-ee5f27adc28b",
+    "source": "https://chromium.googlesource.com/chromium/deps/icu/+/ee5f27adc28bd3f15b2c293f726d14d2e336cbd5/LICENSE?format=TEXT",
+    "kind": "v8-native-notice",
+    "base64": true,
+    "usedBy": [
+      "v8@150.4.0"
+    ],
+    "file": "upstream/v8-native__third_party__icu-ee5f27adc28b/LICENSE",
+    "sha256": "451167c55c0fa447cc2d5632714f5e3c567fe4f1e1badefab2c1333852198aca",
+    "bytes": 26487
+  },
+  {
+    "component": "v8-native__third_party__simdutf-f7356eed293f",
+    "source": "https://chromium.googlesource.com/chromium/src/third_party/simdutf/+/f7356eed293f8208c40b3c1b344a50bd70971983/LICENSE?format=TEXT",
+    "kind": "v8-native-notice",
+    "base64": true,
+    "usedBy": [
+      "v8@150.4.0"
+    ],
+    "file": "upstream/v8-native__third_party__simdutf-f7356eed293f/LICENSE",
+    "sha256": "fc8dbc04e03ad4efc08a647ffe7f995b811a95bc04c0e85a56d5277c6593fa5f",
+    "bytes": 1059
+  },
+  {
+    "component": "v8-native__v8-ac1e23989121",
+    "source": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/LICENSE",
+    "kind": "v8-native-notice",
+    "base64": false,
+    "usedBy": [
+      "v8@150.4.0"
+    ],
+    "file": "upstream/v8-native__v8-ac1e23989121/LICENSE",
+    "sha256": "6ab33af8774a0f396ee3aeeb761e3229057682d6f9fa7f572e390c2cb3a6e509",
+    "bytes": 3093
+  },
+  {
+    "component": "v8-native__v8-ac1e23989121",
+    "source": "https://raw.githubusercontent.com/denoland/v8/ac1e23989121713ca642f6650b34deff7b686896/AUTHORS",
+    "kind": "v8-native-notice",
+    "base64": false,
+    "usedBy": [
+      "v8@150.4.0"
+    ],
+    "file": "upstream/v8-native__v8-ac1e23989121/AUTHORS",
+    "sha256": "fa60d5a34dff8985ccee2bbd9702cac4ce8712e1c0d7521ce00879403b0fcc27",
+    "bytes": 13546
+  },
+  {
+    "component": "rusty-v8-LICENSE",
+    "source": "https://raw.githubusercontent.com/denoland/rusty_v8/v150.4.0/LICENSE",
+    "kind": "embedded-runtime-notice",
+    "usedBy": [
+      "deno@2.9.5"
+    ],
+    "file": "upstream/rusty-v8-LICENSE/LICENSE",
+    "sha256": "1c6356fb751d45f0c53093ebf8a7f5e580e802f51999178e19d60f3ec39e147d",
+    "bytes": 1078
+  },
+  {
+    "component": "Deno-LICENSE",
+    "source": "https://raw.githubusercontent.com/denoland/deno/v2.9.5/LICENSE.md",
+    "kind": "embedded-runtime-notice",
+    "usedBy": [
+      "deno@2.9.5"
+    ],
+    "file": "upstream/Deno-LICENSE/LICENSE.md",
+    "sha256": "f62497fffecc0852960c8d3e6934b9db86d16396e9b604072e923892cae3a588",
+    "bytes": 1074
+  },
+  {
+    "component": "TypeScript-LICENSE",
+    "source": "https://raw.githubusercontent.com/microsoft/TypeScript/v6.0.3/LICENSE.txt",
+    "kind": "embedded-runtime-notice",
+    "usedBy": [
+      "deno@2.9.5"
+    ],
+    "file": "upstream/TypeScript-LICENSE/LICENSE.txt",
+    "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+    "bytes": 9197
+  },
+  {
+    "component": "TypeScript-ThirdPartyNotice",
+    "source": "https://raw.githubusercontent.com/microsoft/TypeScript/v6.0.3/ThirdPartyNoticeText.txt",
+    "kind": "embedded-runtime-notice",
+    "usedBy": [
+      "deno@2.9.5"
+    ],
+    "file": "upstream/TypeScript-ThirdPartyNotice/ThirdPartyNoticeText.txt",
+    "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c",
+    "bytes": 37824
+  },
+  {
+    "component": "Node-types-LICENSE",
+    "source": "https://raw.githubusercontent.com/denoland/deno/v2.9.5/cli/tsc/dts/node/LICENSE",
+    "kind": "embedded-runtime-notice",
+    "usedBy": [
+      "deno@2.9.5"
+    ],
+    "file": "upstream/Node-types-LICENSE/LICENSE",
+    "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+    "bytes": 1141
+  },
+  {
+    "component": "Undici-types-LICENSE",
+    "source": "https://raw.githubusercontent.com/denoland/deno/v2.9.5/cli/tsc/dts/node/undici/LICENSE",
+    "kind": "embedded-runtime-notice",
+    "usedBy": [
+      "deno@2.9.5"
+    ],
+    "file": "upstream/Undici-types-LICENSE/LICENSE",
+    "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+    "bytes": 1090
+  },
+  {
+    "component": "Node-LICENSE",
+    "source": "https://raw.githubusercontent.com/nodejs/node/v24.0.0/LICENSE",
+    "kind": "embedded-runtime-notice",
+    "usedBy": [
+      "deno@2.9.5"
+    ],
+    "file": "upstream/Node-LICENSE/LICENSE",
+    "sha256": "b58bb782ec115892f61475a6199db165545926d93624ae172f25b7a6e1dafffe",
+    "bytes": 142089
+  }
+]

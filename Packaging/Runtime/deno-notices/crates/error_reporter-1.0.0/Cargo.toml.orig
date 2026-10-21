@@ -1,0 +1,9 @@
+[package]
+name = "error_reporter"
+version = "1.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/mahkoh/error_reporter"
+description = "A library to print errors"
+keywords = ["utility"]
+categories = ["value-formatting"]

@@ -1,0 +1,29 @@
+[package]
+name = "lcms2"
+version = "6.1.0"
+authors = ["Kornel Lesiński <kornel@geekhood.net>"]
+description = "ICC color profile handling. Rusty wrapper for Little CMS"
+keywords = ["icc", "profile", "color", "lcms"]
+include = ["src/**/*", "Cargo.toml", "README.md", "LICENSE"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://lib.rs/crates/lcms2"
+documentation = "https://docs.rs/lcms2"
+repository = "https://github.com/kornelski/rust-lcms2.git"
+categories = ["multimedia::images", "api-bindings"]
+edition = "2021"
+
+[dependencies]
+bytemuck = "1.13.1"
+foreign-types = "0.5"
+lcms2-sys = { path = "./sys", version = "4.0.4" }
+
+[features]
+static = ["lcms2-sys/static"]
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
+rustdoc-args = ["--generate-link-to-definition"]
+
+[badges]
+maintenance = { status = "actively-developed" }

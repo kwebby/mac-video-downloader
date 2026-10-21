@@ -1,0 +1,69 @@
+MVD Source Available License 1.0
+
+Copyright (c) 2026 Ramanpal Singh
+https://kwebby.com
+All rights reserved except for the permissions below.
+
+1. Scope
+
+These terms cover the original MVD application code, companion extension,
+documentation, branding, and other original materials in this repository
+(the "MVD Materials"). Third-party software and content are excluded and
+remain subject to their own licenses and notices.
+
+This is a source available license, not an open source license.
+
+2. What you may do
+
+You may download, install, and use official, unmodified MVD releases for your
+personal use or your organization's internal use, without a license fee.
+
+You may view, download, and inspect the published source for learning,
+review, and evaluation. You may build and run the unmodified source for the
+same personal or internal use. Keep the copyright and license notices intact.
+
+You may link to the official repository and release downloads. You may show
+unmodified MVD screenshots in reviews and tutorials with credit to
+"Ramanpal Singh - kwebby.com", without implying endorsement.
+
+Rights granted by GitHub's terms for hosting, viewing, and forking a public
+repository on GitHub are not restricted by this license. A GitHub fork does
+not grant additional permission to use or distribute the MVD Materials.
+
+3. What requires written permission
+
+Except as allowed above, by applicable law, or by a separate written agreement,
+no permission is granted to:
+
+- modify the MVD Materials or create derivative works;
+- redistribute, sublicense, rent, or sell the MVD Materials or copies of MVD;
+- rebrand MVD, remove its ownership notices, or offer it under another name;
+- incorporate MVD code or assets into another product or a hosted service;
+- distribute modified builds or provide paid access to MVD itself.
+
+Using the official app internally in a business is allowed. Reselling it,
+repackaging it, or offering a download service built from its code requires
+separate written permission from Ramanpal Singh. Contact the owner through
+https://kwebby.com/services.
+
+4. Third-party rights
+
+Nothing in these terms changes, replaces, or restricts rights granted by the
+licenses of third-party software or content. Those licenses govern the
+respective components, including rights to copy, modify, redistribute, obtain
+source, replace libraries, or debug library modifications where applicable.
+See THIRD_PARTY_NOTICES.md and the notices shipped with the releases.
+
+5. Ownership and other rights
+
+Ramanpal Singh retains ownership of the original MVD Materials. No trademark,
+patent, or other license is granted except as expressly stated above. Rights
+not expressly granted are reserved. These terms do not limit exceptions or
+rights that applicable law does not allow the owner to restrict.
+
+6. No warranty
+
+The MVD Materials are provided "as is" and "as available", without warranties
+of any kind, to the extent permitted by applicable law. The owner is not
+liable for claims, damages, or other liability arising from the materials or
+their use, to the extent permitted by applicable law.

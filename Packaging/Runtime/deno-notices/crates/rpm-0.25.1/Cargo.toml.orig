@@ -1,0 +1,138 @@
+[package]
+name = "rpm"
+version = "0.25.1"
+authors = [
+  "René Richter <richterrettich@gmail.com>",
+  "Bernhard Schuster <bernhard@ahoi.io>",
+  "Daniel Alley <dalley@redhat.com>",
+]
+edition = "2024"
+license = "Apache-2.0 OR MIT"
+description = "A pure rust library for building and parsing RPMs"
+homepage = "https://github.com/rpm-rs/rpm"
+repository = "https://github.com/rpm-rs/rpm"
+readme = "README.md"
+keywords = ["RPM", "packaging"]
+categories = ["parsing", "development-tools"]
+rust-version = "1.88.0"
+
+[lib]
+name = "rpm"
+
+# tests that try to install / verify RPMs using rpm / dnf in Linux containers via podman
+[[test]]
+name = "rpm-compat-tests"
+required-features = ["test-with-podman"]
+path = "tests/compat.rs"
+
+[[test]]
+name = "building"
+required-features = ["payload"]
+path = "tests/building.rs"
+
+[[test]]
+name = "compare"
+required-features = ["payload"]
+path = "tests/compare.rs"
+
+[[test]]
+name = "signatures"
+required-features = ["signature-meta"]
+path = "tests/signatures.rs"
+
+[dependencies]
+pyo3 = { version = "0.28", optional = true }
+base64 = "0.22"
+bitflags = "2"
+thiserror = "2"
+memchr = "2"
+nom = "8"
+num-traits = "0.2"
+num-derive = "0.4"
+num = "0.4"
+enum-primitive-derive = "0.3"
+enum-display-derive = "0.1"
+digest = "0.10"
+sha3 = "0.10"
+sha2 = "0.10"
+sha1 = "0.10"
+pgp = { version = "0.19.0", features = ["draft-pqc"], optional = true }
+getrandom = { version = "0.4.0", optional = true }
+chrono = { version = "0.4", optional = true }
+log = "0.4"
+itertools = "0.14"
+hex = { version = "0.4", features = ["std"] }
+zstd = { version = "0.13", optional = true }
+liblzma = { version = "0.4", optional = true }
+flate2 = { version = "1", optional = true, default-features = false, features = ["zlib-rs"] }
+bzip2 = { version = "0.6", optional = true }
+zeroize = "1"
+rpm-version = { version = "0.5.0" }
+
+[dev-dependencies]
+env_logger = "0.11"
+serial_test = "3.2"
+pretty_assertions = "1.4"
+rsa = "0.9"
+gethostname = "1.0"
+tempfile = "3.21.0"
+clap = { version = "4.6.0", features = ["derive"] }
+pgp = "0.19.0"
+
+[features]
+default = [
+    "signature-pgp",
+    "payload",
+    "gzip-compression",
+    "zstd-compression",
+    "xz-compression",
+]
+
+payload = []
+python = ["pyo3/extension-module", "pyo3/abi3-py310", "liblzma?/static", "payload", "signature-pgp", "rpm-version/python"]
+
+gzip-compression = ["flate2"]
+zstd-compression = ["zstd"]
+xz-compression = ["liblzma"]
+bzip2-compression = ["bzip2"]
+
+signature-pgp = ["signature-meta", "pgp", "chrono", "getrandom"]
+signature-meta = []
+
+# Segregate tests that require podman to be installed
+test-with-podman = ["signature-pgp", "payload"]
+
+zstdmt = ["zstd-compression", "zstd/zstdmt"]
+
+[[example]]
+name = "hsm-signing"
+required-features = ["signature-pgp"]
+
+[[example]]
+name = "parse-repo"
+
+[[example]]
+name = "inspect-rpm"
+
+[[example]]
+name = "verify-signatures"
+required-features = ["signature-pgp"]
+
+[[example]]
+name = "build-rpm"
+required-features = ["payload"]
+
+[[example]]
+name = "extract-rpm"
+required-features = ["payload"]
+
+[[example]]
+name = "sign-rpm"
+required-features = ["signature-pgp"]
+
+[[example]]
+name = "remote-signing"
+required-features = ["signature-pgp"]
+
+[[example]]
+name = "diff-rpms"

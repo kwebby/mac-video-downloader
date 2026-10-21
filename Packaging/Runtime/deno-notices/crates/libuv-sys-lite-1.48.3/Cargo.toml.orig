@@ -1,0 +1,30 @@
+[package]
+name = "libuv-sys-lite"
+version = "1.48.3"
+edition = "2021"
+license-file = "../LICENSE"
+repository = "https://github.com/nathanwhit/libuv-sys-lite"
+description = "Tiny, raw bindings to libuv without linking to it"
+readme = "../README.md"
+
+build = "./build.rs"
+
+[package.metadata.docs.rs]
+targets = [
+  "x86_64-unknown-linux-gnu",
+  "x86_64-apple-darwin",
+  "aarch64-apple-darwin",
+  "x86_64-pc-windows-msvc",
+]
+
+[dependencies]
+libloading = { workspace = true, optional = true }
+
+[build-dependencies]
+bindgen = "0.70.1"
+
+[features]
+default = []
+dyn-symbols = ["dep:libloading"]
+warn-missing = []
+bindgen = []

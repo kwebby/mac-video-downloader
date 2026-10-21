@@ -1,0 +1,15 @@
+{
+  "architecture": "arm64",
+  "python": {
+    "name": "cpython-3.14.8+20261020-aarch64-apple-darwin-install_only_stripped.tar.gz",
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261020/cpython-3.14.8%2B20261020-aarch64-apple-darwin-install_only_stripped.tar.gz",
+    "digest": "sha256:f0f1402b45a8a655fc78c8ee62462fddcb9dc8717a022e79700d07e44fd18d4a",
+    "tag": "20261020"
+  },
+  "deno": {
+    "name": "deno-aarch64-apple-darwin.zip",
+    "url": "https://github.com/denoland/deno/releases/download/v2.9.5/deno-aarch64-apple-darwin.zip",
+    "digest": "sha256:b796aadd131f6930560c1ee040cf0d6f53933fbb987464e9ff46bd7ea4830615",
+    "version": "2.9.5"
+  }
+}

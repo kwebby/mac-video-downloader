@@ -1,0 +1,816 @@
+{
+  "archiveChecksumFailures": [],
+  "remainingProjectNoticeGaps": [
+    {
+      "name": "aead-gcm-stream",
+      "version": "0.4.0",
+      "declaredLicense": "MIT",
+      "authors": [
+        "Divy Srivastava <dj.srivastava23@gmail.com>"
+      ],
+      "repository": null,
+      "vcs": {
+        "git": {
+          "sha1": "2737345ddbccd5b3e1ae41060b136cfc3e0cb610"
+        },
+        "path_in_vcs": ""
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "ast_node",
+      "version": "5.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+        },
+        "path_in_vcs": "crates/ast_node"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "better_scoped_tls",
+      "version": "1.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+        },
+        "path_in_vcs": "crates/better_scoped_tls"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "convert_case",
+      "version": "0.4.0",
+      "declaredLicense": "MIT",
+      "authors": [
+        "David Purdum <purdum41@gmail.com>"
+      ],
+      "repository": "https://github.com/rutrum/convert-case",
+      "vcs": {
+        "git": {
+          "sha1": "300d9eef9e8c970e15f324afbc3df8b6a4ebbf71"
+        }
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "deno_core_icudata",
+      "version": "0.77.0",
+      "declaredLicense": "MIT",
+      "authors": [
+        "the Deno authors"
+      ],
+      "repository": "https://github.com/denoland/deno_core_icudata",
+      "vcs": {
+        "git": {
+          "sha1": "83537ba16a4bf1645fc8322e81f7aaf0149a8922"
+        },
+        "path_in_vcs": ""
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "deno_native_certs",
+      "version": "0.3.0",
+      "declaredLicense": "MIT",
+      "authors": [
+        "Divy Srivastava <dj.srivastava23@gmail.com>"
+      ],
+      "repository": "https://github.com/denoland/deno_native_certs",
+      "vcs": {
+        "git": {
+          "sha1": "700f235fe029ea839f5a64eea251abf8116ddb4c"
+        },
+        "path_in_vcs": ""
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "deno_tunnel",
+      "version": "0.8.1",
+      "declaredLicense": "MIT",
+      "authors": [
+        "the Deno authors"
+      ],
+      "repository": "https://github.com/denoland/deno_tunnel",
+      "vcs": {
+        "git": {
+          "sha1": "c0572b46beac220e105e69317ff9e207babc7f09"
+        },
+        "path_in_vcs": ""
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "derive-io",
+      "version": "0.4.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "authors": [
+        "Matt Mastracci <matthew@mastracci.com>"
+      ],
+      "repository": "https://github.com/mmastrac/derive-io",
+      "vcs": {
+        "git": {
+          "sha1": "69a023098378b66e8f8852173b65ca5762b201e2"
+        },
+        "path_in_vcs": "crates/derive-io"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "derive-io-macros",
+      "version": "0.4.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "authors": [
+        "Matt Mastracci <matthew@mastracci.com>"
+      ],
+      "repository": "https://github.com/mmastrac/derive-io",
+      "vcs": {
+        "git": {
+          "sha1": "69a023098378b66e8f8852173b65ca5762b201e2"
+        },
+        "path_in_vcs": "crates/derive-io-macros"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "dlopen2",
+      "version": "0.6.1",
+      "declaredLicense": "MIT",
+      "authors": [
+        "Szymon Wieloch <szymon.wieloch@gmail.com>",
+        "Ahmed Masud <ahmed.masud@saf.ai>",
+        "OpenByte <development.openbyte@gmail.com>"
+      ],
+      "repository": "https://github.com/OpenByteDev/dlopen2",
+      "vcs": null,
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "fqdn",
+      "version": "0.5.2",
+      "declaredLicense": "MIT",
+      "authors": [
+        "Xophe <christophe.dousson@orange.com>"
+      ],
+      "repository": "https://github.com/Orange-OpenSource/fqdn",
+      "vcs": {
+        "git": {
+          "sha1": "a23fef8570522a3b98a79afc45322d6487166cd9",
+          "dirty": true
+        },
+        "path_in_vcs": ""
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "from_variant",
+      "version": "3.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+        },
+        "path_in_vcs": "crates/from_variant"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "gpu-descriptor",
+      "version": "0.3.2",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "authors": [
+        "Zakarum <zakarumych@ya.ru>"
+      ],
+      "repository": "https://github.com/zakarumych/gpu-descriptor",
+      "vcs": {
+        "git": {
+          "sha1": "bb28b4e55b742e0ea3e7a0968e7ee6287ba0e06a"
+        },
+        "path_in_vcs": "gpu-descriptor"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "gpu-descriptor-types",
+      "version": "0.2.0",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "authors": [
+        "Zakarum <zakarumych@ya.ru>"
+      ],
+      "repository": "https://github.com/zakarumych/gpu-descriptor",
+      "vcs": {
+        "git": {
+          "sha1": "9f2fb9546591322e7b77ee1e79385e01effd85e4"
+        },
+        "path_in_vcs": "types"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "hexf-parse",
+      "version": "0.2.1",
+      "declaredLicense": "CC0-1.0",
+      "authors": [
+        "Kang Seonghoon <public+rust@mearie.org>"
+      ],
+      "repository": "https://github.com/lifthrasiir/hexf",
+      "vcs": {
+        "git": {
+          "sha1": "4225763d744183d720f575ae96d04161b4d08ea0"
+        }
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "lazy-regex-proc_macros",
+      "version": "3.1.0",
+      "declaredLicense": "MIT",
+      "authors": [
+        "Canop <cano.petrole@gmail.com>"
+      ],
+      "repository": null,
+      "vcs": {
+        "git": {
+          "sha1": "cc1e0888ba501509b4d38ba4c30142625c651343"
+        },
+        "path_in_vcs": "src/proc_macros"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "rsqlite-vfs",
+      "version": "0.1.1",
+      "declaredLicense": "MIT",
+      "authors": [],
+      "repository": null,
+      "vcs": {
+        "git": {
+          "sha1": "1bb309784f25c401ddf95131dcde4c4cdad7aee7"
+        },
+        "path_in_vcs": "crates/rsqlite-vfs"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "rustls-tokio-stream",
+      "version": "0.8.0",
+      "declaredLicense": "MIT",
+      "authors": [],
+      "repository": "https://github.com/denoland/rustls-tokio-stream",
+      "vcs": {
+        "git": {
+          "sha1": "c8a9239c987dbfa7b1eaed78d27935fe8272319c"
+        },
+        "path_in_vcs": ""
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "sacabase",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "authors": [
+        "Amos Wenger <amoswenger@gmail.com>"
+      ],
+      "repository": "https://github.com/fasterthanlime/stringsearch",
+      "vcs": {
+        "git": {
+          "sha1": "acd5846b959884a1d24247038e9c52b5cf900f67"
+        }
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "sptr",
+      "version": "0.3.2",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "authors": [],
+      "repository": "https://github.com/Gankra/sptr",
+      "vcs": {
+        "git": {
+          "sha1": "e59792814876b4948279ec3121921fbe827b1077"
+        },
+        "path_in_vcs": ""
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "string_enum",
+      "version": "1.0.2",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "0ce4fd737e260c0cbfffcfdb19f269a9cc221ef4"
+        },
+        "path_in_vcs": "crates/string_enum"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_allocator",
+      "version": "4.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "0ce4fd737e260c0cbfffcfdb19f269a9cc221ef4"
+        },
+        "path_in_vcs": "crates/swc_allocator"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_atoms",
+      "version": "9.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+        },
+        "path_in_vcs": "crates/swc_atoms"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_common",
+      "version": "17.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "fc7d43ce157083059e2b83acf0a6af8d78c131c7"
+        },
+        "path_in_vcs": "crates/swc_common"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_config",
+      "version": "3.1.2",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "c9b1b7fda64a7824f9a8265c30c3181f2def0fb8"
+        },
+        "path_in_vcs": "crates/swc_config"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_config_macro",
+      "version": "1.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+        },
+        "path_in_vcs": "crates/swc_config_macro"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_ast",
+      "version": "18.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+        },
+        "path_in_vcs": "crates/swc_ecma_ast"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_codegen",
+      "version": "20.0.2",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "dc794548c75c63410b9f8f7ff32bb9b372f0668c"
+        },
+        "path_in_vcs": "crates/swc_ecma_codegen"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_codegen_macros",
+      "version": "2.0.2",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "0ce4fd737e260c0cbfffcfdb19f269a9cc221ef4"
+        },
+        "path_in_vcs": "crates/swc_ecma_codegen_macros"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_lexer",
+      "version": "26.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "8d4313921fb2e639ee1d6bacdfb5b071a8d07d36"
+        },
+        "path_in_vcs": "crates/swc_ecma_lexer"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_loader",
+      "version": "17.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "00ec64fe9a4da0973f14721d7b6dc1f13cd75413"
+        },
+        "path_in_vcs": "crates/swc_ecma_loader"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_parser",
+      "version": "27.0.7",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "b229ffef05bc3906a1badd9857bcd2b2298481af"
+        },
+        "path_in_vcs": "crates/swc_ecma_parser"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_transforms_base",
+      "version": "30.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "51c62242fe6d95a0697be4cd6bdacc4f04679505"
+        },
+        "path_in_vcs": "crates/swc_ecma_transforms_base"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_transforms_classes",
+      "version": "30.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "b82dc67157b78e0deaaa2139d2d07902d8f61954"
+        },
+        "path_in_vcs": "crates/swc_ecma_transforms_classes"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_transforms_macros",
+      "version": "1.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+        },
+        "path_in_vcs": "crates/swc_ecma_transforms_macros"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_transforms_proposal",
+      "version": "30.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "b294d6f6a47934b3baa04229d232f9e1889db1a5"
+        },
+        "path_in_vcs": "crates/swc_ecma_transforms_proposal"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_transforms_react",
+      "version": "33.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "83fba28883be9092ca3e5cffbd9cf35bfc73eabe"
+        },
+        "path_in_vcs": "crates/swc_ecma_transforms_react"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_transforms_typescript",
+      "version": "33.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "83fba28883be9092ca3e5cffbd9cf35bfc73eabe"
+        },
+        "path_in_vcs": "crates/swc_ecma_transforms_typescript"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_utils",
+      "version": "24.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "8d4313921fb2e639ee1d6bacdfb5b071a8d07d36"
+        },
+        "path_in_vcs": "crates/swc_ecma_utils"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ecma_visit",
+      "version": "18.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "fc7d43ce157083059e2b83acf0a6af8d78c131c7"
+        },
+        "path_in_vcs": "crates/swc_ecma_visit"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_eq_ignore_macros",
+      "version": "1.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1@dudy.kr>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+        },
+        "path_in_vcs": "crates/swc_eq_ignore_macros"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_macros_common",
+      "version": "1.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+        },
+        "path_in_vcs": "crates/swc_macros_common"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_ts_fast_strip",
+      "version": "36.0.0",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "6f71ba0ceb4fc3de8b782a3b0afa4d5719024647"
+        },
+        "path_in_vcs": "crates/swc_ts_fast_strip"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "swc_visit",
+      "version": "2.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+        },
+        "path_in_vcs": "crates/swc_visit"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "sys_traits",
+      "version": "0.1.28",
+      "declaredLicense": "MIT",
+      "authors": [],
+      "repository": "https://github.com/dsherret/sys_traits",
+      "vcs": {
+        "git": {
+          "sha1": "709e02e198721f81b485c078ccdf1835fa3e6a40"
+        },
+        "path_in_vcs": ""
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "sys_traits_macros",
+      "version": "0.1.0",
+      "declaredLicense": "MIT",
+      "authors": [],
+      "repository": "https://github.com/dsherret/sys_traits",
+      "vcs": {
+        "git": {
+          "sha1": "75cbf3ea478624cc78275b0264e78e9ae13ce3f5",
+          "dirty": true
+        },
+        "path_in_vcs": "macros"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "testing_macros",
+      "version": "1.0.1",
+      "declaredLicense": "Apache-2.0",
+      "authors": [
+        "\uac15\ub3d9\uc724 <kdy1997.dev@gmail.com>"
+      ],
+      "repository": "https://github.com/swc-project/swc.git",
+      "vcs": {
+        "git": {
+          "sha1": "832d537695a07e539660096883fab52bb7f10ecf"
+        },
+        "path_in_vcs": "crates/testing_macros"
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "valuable",
+      "version": "0.1.0",
+      "declaredLicense": "MIT",
+      "authors": [],
+      "repository": "https://github.com/tokio-rs/valuable",
+      "vcs": null,
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "wasite",
+      "version": "0.1.0",
+      "declaredLicense": "Apache-2.0 OR BSL-1.0 OR MIT",
+      "authors": [],
+      "repository": "https://github.com/ardaku/wasite",
+      "vcs": {
+        "git": {
+          "sha1": "0c72934ad329ab4670eb017581640c2d6eceb289"
+        }
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "win_uds",
+      "version": "0.2.2",
+      "declaredLicense": "Unlicense",
+      "authors": [],
+      "repository": "https://github.com/kouhe3/win_uds",
+      "vcs": {
+        "git": {
+          "sha1": "3a3214bd7256c515d6add9496dd4fefe7d78e165"
+        },
+        "path_in_vcs": ""
+      },
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "winapi-i686-pc-windows-gnu",
+      "version": "0.4.0",
+      "declaredLicense": "MIT/Apache-2.0",
+      "authors": [
+        "Peter Atashian <retep998@gmail.com>"
+      ],
+      "repository": "https://github.com/retep998/winapi-rs",
+      "vcs": null,
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    },
+    {
+      "name": "winapi-x86_64-pc-windows-gnu",
+      "version": "0.4.0",
+      "declaredLicense": "MIT/Apache-2.0",
+      "authors": [
+        "Peter Atashian <retep998@gmail.com>"
+      ],
+      "repository": "https://github.com/retep998/winapi-rs",
+      "vcs": null,
+      "reason": "Published archive contains no standalone notice and pinned root notice fetch did not succeed; declarations, standard text and any available copyright headers retained."
+    }
+  ],
+  "limitations": [
+    "Cargo.lock is conservatively overincluded, including build/dev/other-platform crates; it is not a binary-specific SBOM.",
+    "Upstream Deno release contains no aggregate third-party notice asset.",
+    "Some published crates omit standalone license files; the remaining list is explicit rather than inventing copyright notices.",
+    "Node v24.0.0 aggregate license is an additional broad compatibility reference, not an assertion that every Node-derived Deno file is from that exact release.",
+    "Current-branch LLVM/native fallback licenses are supplemental; pinned native sources are separately recorded where obtainable."
+  ],
+  "optionalAlternativePathFetchFailures": [
+    {
+      "name": "SWC-LICENSE-APACHE",
+      "url": "https://raw.githubusercontent.com/swc-project/swc/main/LICENSE-APACHE",
+      "error": "curl: (56) The requested URL returned error: 404"
+    }
+  ],
+  "standardTextFetchFailures": []
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "package": "deno_tunnel@0.8.1",
+    "file": "source-copyrights/deno_tunnel-0.8.1.txt",
+    "sha256": "6d83c1d342e694c594e6834a1dcf713c515755c4f2a1c1e0993d107c23c5a410"
+  },
+  {
+    "package": "rustls-tokio-stream@0.8.0",
+    "file": "source-copyrights/rustls-tokio-stream-0.8.0.txt",
+    "sha256": "1333bba95740a468df2a0831ba6ce0f25fa812b7e622cdac6094ceee302f4c17"
+  },
+  {
+    "package": "swc_common@17.0.1",
+    "file": "source-copyrights/swc_common-17.0.1.txt",
+    "sha256": "5f31eff4b25c36847c5e9a5751de808dee4957cee337c4993113ed385f82d7e0"
+  },
+  {
+    "package": "winapi-i686-pc-windows-gnu@0.4.0",
+    "file": "source-copyrights/winapi-i686-pc-windows-gnu-0.4.0.txt",
+    "sha256": "7fbf505a5c24d13d3fa74fff91d43a414bac5ad7779925fc3f2d4d49ef353feb"
+  },
+  {
+    "package": "winapi-x86_64-pc-windows-gnu@0.4.0",
+    "file": "source-copyrights/winapi-x86_64-pc-windows-gnu-0.4.0.txt",
+    "sha256": "d38400722bdd86ec6333c925f92de59d9f99fd09f5146ed69a9b99663ae1de94"
+  }
+]

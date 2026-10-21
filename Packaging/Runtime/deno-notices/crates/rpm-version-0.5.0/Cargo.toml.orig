@@ -1,0 +1,31 @@
+[package]
+name = "rpm-version"
+version = "0.5.0"
+edition = "2024"
+description = "A library for dealing with RPM versions (NEVRA, EVR) correctly. Sort algorithm is identical to RPM."
+license = "MIT"
+authors = [
+    "Daniel Alley <dalley@redhat.com>"
+]
+
+[dependencies]
+pyo3 = { version = "0.28", optional = true }
+serde = { version = "1", features = ["derive"], optional = true }
+
+[dev-dependencies]
+serde_json = "1"
+clap = { version = "4.6.0", features = ["derive"] }
+criterion = "0.8"
+
+[[bench]]
+name = "sort"
+harness = false
+
+[features]
+default = []
+python = ["pyo3/extension-module", "pyo3/abi3-py310"]
+serde = ["dep:serde"]
+
+[[example]]
+name = "serde"
+required-features = ["serde"]

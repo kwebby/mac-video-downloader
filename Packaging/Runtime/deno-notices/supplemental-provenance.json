@@ -1,0 +1,112 @@
+[
+  {
+    "name": "SPDX-MIT",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/MIT.txt",
+    "file": "supplemental-standard-texts/SPDX-MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "SPDX-Apache-2.0",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/Apache-2.0.txt",
+    "file": "supplemental-standard-texts/SPDX-Apache-2.0.txt",
+    "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "SPDX-CC0-1.0",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/CC0-1.0.txt",
+    "file": "supplemental-standard-texts/SPDX-CC0-1.0.txt",
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "SPDX-BSL-1.0",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/BSL-1.0.txt",
+    "file": "supplemental-standard-texts/SPDX-BSL-1.0.txt",
+    "sha256": "84c6ef3ea9e3254a54d0acf5d3e0c61ae011b8fef7dd6940591cf060e6380a8f",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "SPDX-Unlicense",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/Unlicense.txt",
+    "file": "supplemental-standard-texts/SPDX-Unlicense.txt",
+    "sha256": "0bdebfeda07d45dada625ae1317c6f833186e798b171d0db640bcf32e92a8240",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "LLVM-libcxx-LICENSE",
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/main/libcxx/LICENSE.TXT",
+    "file": "supplemental-standard-texts/LLVM-libcxx-LICENSE.txt",
+    "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "LLVM-libcxxabi-LICENSE",
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/main/libcxxabi/LICENSE.TXT",
+    "file": "supplemental-standard-texts/LLVM-libcxxabi-LICENSE.txt",
+    "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "LLVM-libunwind-LICENSE",
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/main/libunwind/LICENSE.TXT",
+    "file": "supplemental-standard-texts/LLVM-libunwind-LICENSE.txt",
+    "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "LLVM-libc-LICENSE",
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/main/libc/LICENSE.TXT",
+    "file": "supplemental-standard-texts/LLVM-libc-LICENSE.txt",
+    "sha256": "ebcd9bbf783a73d05c53ba4d586b8d5813dcdf3bbec50265860ccc885e606f47",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "Google-highway-LICENSE",
+    "url": "https://raw.githubusercontent.com/google/highway/master/LICENSE",
+    "file": "supplemental-standard-texts/Google-highway-LICENSE.txt",
+    "sha256": "85de9303e7a81f35d81befd51a4004c41b5e7f7e40cd4e3f5ff609ecd71a0e44",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "fast-float-LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/fastfloat/fast_float/main/LICENSE-MIT",
+    "file": "supplemental-standard-texts/fast-float-LICENSE-MIT.txt",
+    "sha256": "e562f3f974ced7e69dd1db77b820b36bcf8f30377f1aa105723fba449c53c4e6",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "fast-float-LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/fastfloat/fast_float/main/LICENSE-APACHE",
+    "file": "supplemental-standard-texts/fast-float-LICENSE-APACHE.txt",
+    "sha256": "097a889aa954d04e088b790b10a4014d6189561d0a6013935a73ce3d4ddaaf06",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "dragonbox-LICENSE-Apache2-LLVM",
+    "url": "https://raw.githubusercontent.com/jk-jeon/dragonbox/master/LICENSE-Apache2-LLVM",
+    "file": "supplemental-standard-texts/dragonbox-LICENSE-Apache2-LLVM.txt",
+    "sha256": "9e45e856bedccee9f67254082ca11851d954de2fed7448c4bed19ad9aab99a91",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "dragonbox-LICENSE-Boost",
+    "url": "https://raw.githubusercontent.com/jk-jeon/dragonbox/master/LICENSE-Boost",
+    "file": "supplemental-standard-texts/dragonbox-LICENSE-Boost.txt",
+    "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "SWC-LICENSE",
+    "url": "https://raw.githubusercontent.com/swc-project/swc/main/LICENSE",
+    "file": "supplemental-standard-texts/SWC-LICENSE.txt",
+    "sha256": "d96eba1f1881334d50ffc144276dfa98e147a415e7c591ecdfcb81680361dc91",
+    "note": "Exact upstream standard text; current-branch component supplements are not proof of a matching historical source revision."
+  },
+  {
+    "name": "SWC-LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/swc-project/swc/main/LICENSE-APACHE",
+    "error": "curl: (56) The requested URL returned error: 404"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "runtime": "Deno",
+  "version": "2.9.5",
+  "upstreamRelease": "https://github.com/denoland/deno/releases/tag/v2.9.5",
+  "binaryArchiveURL": "https://github.com/denoland/deno/releases/download/v2.9.5/deno-aarch64-apple-darwin.zip",
+  "binaryChecksumURL": "https://github.com/denoland/deno/releases/download/v2.9.5/deno-aarch64-apple-darwin.zip.sha256sum",
+  "sourceTag": "v2.9.5",
+  "sourceCommit": "17fadf33a8df3af9488b9f42efd1f2290d6dc7a3",
+  "cargoLockURL": "https://raw.githubusercontent.com/denoland/deno/v2.9.5/Cargo.lock",
+  "cargoLockSHA256": "5946663ecfe578b71bbdeda92fe6a4bdd6f5c66e0ffcabbe78c589d2bb1fa4ab",
+  "registryArchiveCount": 1051,
+  "registryChecksumFailures": 0,
+  "collectionMethod": "Bounded 16-worker HTTPS download from static.crates.io; SHA-256 must equal Cargo.lock before reading tar members. Only legal notice texts, Cargo declarations and VCS metadata extracted. No downloaded crate code executed. Conservatively includes all locked registry dependencies regardless of target/features.",
+  "upstreamSupplementIndex": "upstream-provenance.json",
+  "standardSupplementIndex": "supplemental-provenance.json",
+  "copyrightHeaderIndex": "source-copyright-provenance.json",
+  "remainingHistoricalProjectNoticeGaps": 52,
+  "gapsFile": "gaps.json",
+  "binaryVerification": "The packaging coordinator separately verifies the official arm64 binary ZIP. This collection does not modify or sign it."
+}

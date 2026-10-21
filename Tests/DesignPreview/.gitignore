@@ -1,0 +1,5 @@
+fixtures/*.jpg
+fixtures/*.mp3
+fixtures/*.mp4
+fixtures/*.partial
+__pycache__/
